@@ -1,0 +1,78 @@
+
+.demo{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+
+.grid-section{
+    background-color: #3F6979;
+    background-image: url(/Users/aserra/Documents/web-locutor2/img/backround10.jpeg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+
+.flex-grid{
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;    
+    align-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+}
+
+.flex-grid img{
+    z-index: 1000;
+    opacity: none;
+}
+
+
+.grid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media all and (min-width: 900px) {
+
+
+
+    .grid-section{
+   
+        height: auto;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    
+
+
+    
+    .flex-grid{
+        margin-left: 15%;
+        margin-right: 15%;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-flow: row wrap;
+       
+    }
+    
+    
+    .col{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-basis: 33%;
+    
+    }
+}
