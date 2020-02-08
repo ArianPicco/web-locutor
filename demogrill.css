@@ -7,23 +7,22 @@
 
 .grid-section{
     background-color: #3F6979;
-    background-image: url(/Users/aserra/Documents/web-locutor2/img/backround10.jpeg);
+    background-image: url(D:/User/Documents/Git/web-locutor/img/backround10.jpeg);
     background-size: 100%;
     background-repeat: repeat;
 }
 
 
 .flex-grid{
-    background-color: black;
-    opacity: 0.4;
+    background-color: rgb(0, 0, 0, 0.6);
     border-radius: 2rem;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;    
     align-content: center;
     align-items: center;
-    padding: 2rem;
-    margin: 4rem;
+    padding: 0.5rem;
+    margin: 2rem;
 }
 
 .col{
@@ -44,7 +43,7 @@
 }
 
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 700px) {
 
 
 
@@ -59,12 +58,15 @@
 
     
     .flex-grid{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         display: flex;
         align-items: center;
         justify-content: center;   
         flex-flow: row wrap;
+       
        
     }
     
