@@ -2,7 +2,6 @@
 .contact-box{
     display: flex;
     flex-flow: column wrap;
-    
 }
 
 .comment{
@@ -123,31 +122,34 @@ fieldset {
     
     .contact-box{
         display: flex; 
-        background-color: #3F6979 ;
-    
+		background-color: #3F6979 ;
     }
     
     .comment{
-        margin: 2%;
+		margin-top: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 5%;
         display: flex;
         align-items: center;
         flex-flow: row nowrap;
         background-color: #AAB8B1;
-    }
+	}
+	
+	.comment ~ .container-form{
+		margin: none;
+	}
     
     .comment p {
-        margin: 2%;
+		margin: 2%;
+		width: 30%;
     }
     
-    .container-form {
-        max-width:400px;
-        width:100%;
-        margin:0 auto;
-        position:relative;
-    }
+   
     
     #contact{
-        margin-right: 5%;
+		margin-right: 15%;
+		width: 100%;
     }
     
 
