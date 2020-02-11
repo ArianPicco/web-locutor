@@ -1,14 +1,16 @@
 
 .contact-box{
     display: flex;
-    flex-flow: column wrap;
+	flex-flow: column wrap;
+	background-color: #F5F5DD;
+
 }
 
 .comment{
     display: flex;
     align-items: center;
-    background-color: grey;
-    flex-flow: column;
+	flex-flow: column;
+	background-color: #C7AD7F;
 }
 
 .comment p {
@@ -121,36 +123,51 @@ fieldset {
     ;}
     
     .contact-box{
-        display: flex; 
-		background-color: #3F6979 ;
-    }
+		display: flex; 
+	}
     
     .comment{
 		margin-top: 5%;
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 		margin-bottom: 5%;
         display: flex;
-        align-items: center;
-        flex-flow: row nowrap;
-        background-color: #AAB8B1;
+		border-radius: 1rem;
+		flex-flow: row nowrap;
 	}
 	
-	.comment ~ .container-form{
-		margin: none;
+
+    
+    .commentp{
+		display: flex;
+		margin: 5%;
+		width: 40%;
+
 	}
-    
-    .comment p {
-		margin: 2%;
-		width: 30%;
-    }
-    
    
-    
-    #contact{
-		margin-right: 15%;
+	.container-form{
+		max-width: 600px;
 		width: 100%;
+		margin-right: 5%;
+	}
+	
+
+    #contact{
+			width: 100%;
+		
     }
-    
+	
+	
+	#contact button[type="submit"] {
+		cursor:pointer;
+		width:50%;
+		border:none;
+		background:#0CF;
+		color:#FFF;
+		margin:0 0 5px;
+		padding:10px;
+		font-size:15px;
+		margin-left: 25%;
+	}
 
 }

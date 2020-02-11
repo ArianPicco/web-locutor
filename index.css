@@ -17,7 +17,7 @@ body {
 .footer{
     font-size: 10px;
     padding-top: 3rem;
-    background-color: lightslategray;
+    background-color: #C7AD7F;
     display: flex;
 }
 
@@ -31,7 +31,8 @@ body {
     font-size: 10px;
     padding-top: 4rem;
     display: flex;
-    background-color: rgb(38, 95, 117) ;
+    background-color: #C7AD7F;
+    border:  2px solid rgba(255, 255, 255, 0.6);
 
 }
 

@@ -10,8 +10,7 @@
 
 
 .profile {
-display: flex;
-background-color: #C7AD7F;;
+display: none;
 align-content: center;
 justify-content: center;
 border-radius: 1rem;
@@ -26,8 +25,8 @@ padding: 20px;
 
 .profile-desc-container{
     display: flex;
-    margin: 5%;
-    text-align: justify;
+    font-size: x-large;
+    text-align: center;
 }
 
 .profile-content{
@@ -96,7 +95,12 @@ font-size: 2rem;
     display: flex;
     justify-content: space-around;
     font-size: x-large;
+    text-align: justify;
+    margin: 5%;
     }
+
+  
+    
     
     .profile-content{
         display: flex;
