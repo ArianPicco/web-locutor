@@ -3,6 +3,7 @@
     display: flex;
 	flex-flow: column wrap;
 	background-color: #F5F5DD;
+	
 
 }
 
@@ -11,6 +12,7 @@
     align-items: center;
 	flex-flow: column;
 	background-color: #C7AD7F;
+	border:  1px solid rgba(0, 0, 0, 0.3);
 }
 
 .comment p {
@@ -27,11 +29,20 @@
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
+
+
 #contact {
 	background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
-}
+	border-radius: 2rem;
+
+		-webkit-box-shadow: 0 10px 6px -6px #777;
+		   -moz-box-shadow: 0 10px 6px -6px #777;
+				box-shadow: 0 10px 6px -6px #777;
+	}
+	
+
 
 #contact h3 {
 	color: #F96;
@@ -113,9 +124,7 @@ fieldset {
 }
 
 
-@media all and (min-width: 900px) {
-
-
+@media all and (min-width: 600px) {
 
 
     .demo{

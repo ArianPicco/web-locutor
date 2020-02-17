@@ -12,9 +12,7 @@
 }
 
 
-.col:hover .card-middle {
-    transform: rotateY(180deg);
-  }
+
 
 .front, .back {
    position: sticky;
@@ -32,10 +30,18 @@
 
 
   .back{
-    transform: rotateY(180deg)
+    visibility: hidden;
   }
 
   
 @media all and (min-width: 700px) {
-    
+  .col:hover .card-middle {
+    transform: rotateY(180deg);
+  }
+
+  .back{
+    transform: rotateY(180deg);
+    visibility: visible;
+  }
+
 }
