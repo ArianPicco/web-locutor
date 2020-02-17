@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main{
+    background-color: lightgray;
+}
+
+
+
+.footer{
+    font-size: 10px;
+    padding-top: 3rem;
+    background-color: #C7AD7F;
+    display: flex;
+}
+
+
+
+
+
+@media all and (min-width: 900px) {
+
+
+
+.footer{
+    font-size: 10px;
+    padding-top: 4rem;
+    display: flex;
+    background-color: #C7AD7F;
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
