@@ -1,0 +1,98 @@
+
+.audio{
+    display: flex;
+    width: 90%;    
+}
+
+
+.demo{
+    width: 100%;
+    height: auto;   
+}
+
+.play{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+   
+}
+
+.grid-section{
+    background-color: #3F6979;
+    background-image: url(/Users/aserra/Documents/web-locutor/web-locutor4/img/backround10.jpeg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+
+.flex-grid{
+    background-color: rgb(0, 0, 0, 0.6);
+    border-radius: 2rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;    
+    align-content: center;
+    align-items: center;
+    padding: 0.1rem;
+    margin: 0.1rem;
+}
+
+.col{
+    flex: 1;
+    display: flex;
+    flex-basis: 50%;
+    margin: 0;
+    padding: 1rem;
+    flex-direction: column;
+}
+
+
+.grid-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media all and (min-width: 900px) {
+
+
+
+    .grid-section{
+   
+        height: auto;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    
+
+
+    
+    .flex-grid{
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        flex-flow: row wrap;
+       
+       
+    }
+    
+    
+    .col{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        flex-basis: 33%;
+        
+        align-content: center;
+        align-items:center ;
+
+    
+    }
+
+
+    
+}
